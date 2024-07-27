@@ -1,0 +1,20 @@
+#loginpage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#newblog{
+    width: 70vw;
+}
+#postcontainer{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
