@@ -112,7 +112,7 @@ app.post('/newblog',(req,res)=>{
             fs.writeFile(filePath, JSON.stringify(posts) , (err) => {
                 if (err){
                     console.error('Error writing to file', err);
-                    res.send('Error saving blog');
+                    res.send(err);
                 }else{
                     res.redirect('/login')
                 }
